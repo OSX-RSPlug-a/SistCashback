@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projeto teste Login / DashBoard / Cadastro / +feature: cashback;
+
+Teste feito com as tecnologias:
+
+   - React; 
+   - JS;
+   - HTML;
+   - CSS;
+   - Material-UI;
+   
+
+Links:
+
+    http://localhost:3000/        ( login do sistema )
+    
+    http://localhost:3000/New     ( criar um novo usuario para o sistema )
+    
+    http://localhost:3000/Dashboard   ( página adminstrativa do sistema )
+    
+    http://localhost:3000/ListCompras      ( página de adicionar / alterar / excluir compras )
+    
 
 ## Available Scripts
 
