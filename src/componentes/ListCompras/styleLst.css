@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    padding: 0 20px 20px;
+    background: #fafafa;
+    position: relative;
+  }
+  
+  .mdl-data-table {
+    margin-bottom: 12px;
+  }
+  
+  .mdl-data-table td {
+    padding-bottom: 12px;
+    vertical-align: middle;
+  }
+  
+  .mdl-data-table_full {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .mdl-data-table .controls {
+    text-align: center;
+  }
+  
+  .app-page {  
+    margin: 0 auto;
+  }
+
+  .AppBar-positionStatic {
+    position: relative;
+  }

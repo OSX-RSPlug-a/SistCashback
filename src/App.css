@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Circular', 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom right, #26a3ab, #B05574);
+  background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+
+@-ms-viewport{
+  width: device-width;
+}

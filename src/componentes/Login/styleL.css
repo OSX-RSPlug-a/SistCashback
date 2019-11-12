@@ -1,0 +1,105 @@
+  
+  .containerned {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+    margin-top: 180px;
+    max-width: 450px;
+    width: 100%;
+    
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    margin-top: 50px;
+    border-radius: 0 0 4px 4px;
+    padding: 30px;
+    opacity: 0.93;
+    border-top: 3px solid #435757;
+  }
+  
+  .card > p , strong {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card form label {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card form label span {
+    font-weight: normal;
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .card form input {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 16px;
+  }
+  
+  .card button.btn {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f05a5b;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .card button.btn:hover {
+    background: #e14f50;
+  }
+
+  .card a {
+    margin-bottom: 10%;
+    color:rgb(233, 12, 12);
+    text-decoration: underline;
+    text-decoration: none;
+  }
+
+  .card img #imgS {
+    display: flex;
+    align-content: center;
+    position: absolute;
+    width: 50%;
+    padding: 0;
+  }
+
+  input, button {
+    font-family: 'Circular', 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 520px){
+      .containerned{
+        margin: 0;
+        padding: 0;
+        margin-top: 0;
+      }
+      img #imgS {
+        margin-top: 10px !important;  
+      }
+  }
